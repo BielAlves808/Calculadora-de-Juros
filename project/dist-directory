@@ -1,0 +1,29 @@
+Entrypoint main =
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value.
+Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+ERROR in main
+Module not found: Error: Can't resolve './src' in '/home/project'
+resolve './src' in '/home/project'
+  using description file: /home/project/package.json (relative path: .)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: /home/project/package.json (relative path: ./src)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/project/src doesn't exist
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/project/src.js doesn't exist
+      .json
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/project/src.json doesn't exist
+      .wasm
+        Field 'browser' doesn't contain a valid alias configuration
+        /home/project/src.wasm doesn't exist
+      as directory
+        /home/project/src doesn't exist
+
+webpack 5.105.4 compiled with 1 error and 1 warning in 59 ms
